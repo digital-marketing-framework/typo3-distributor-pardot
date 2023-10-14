@@ -9,6 +9,6 @@ class CoreRegistryUpdateEventListener extends AbstractCoreRegistryUpdateEventLis
 {
     public function __construct()
     {
-        parent::__construct(new DistributorPardotInitialization());
+        parent::__construct(new DistributorPardotInitialization('dmf_distributor_pardot'));
     }
 }
